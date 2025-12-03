@@ -13,17 +13,21 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Music_Store
+namespace Music_Store.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для Auth.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Auth : Page
     {
-        public MainWindow()
+        public Auth()
         {
             InitializeComponent();
-            frame.Navigate(new Pages.Auth());
+        }
+
+        private void authorization(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
